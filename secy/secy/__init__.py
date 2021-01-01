@@ -30,7 +30,7 @@ def publishServices():
         wsp.stop()
         time.sleep(3.0)
 
-
+#creating main thread
 # x = threading.Thread(,target=publishServices, daemon=True)
 x = threading.Thread(target=publishServices, daemon=True)
 x.start()
